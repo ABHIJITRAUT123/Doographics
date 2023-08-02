@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>doographics e-commerce website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <ul>
+                <li><a href="#Home">HOME</a></li>
+                <li><a href="#Shop">SHOP</a></li>
+                <li><a href="#Profile">Profile</a></li>
+            </ul>
+            <div class="searchbar">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text">
+                
+                <button class="search">search</button>
+            </div>
+      </div>
+    </nav>
+
+    <section class="products">
+        <div class="section-title">
+            <h2>House products</h2>
+        </div>
+        <div class="products-center">
+            <!-- products -->
+            
+        </div>
+    </section>
+
+    <section class="evenOdd">
+        <p>
+            Enter the Number: <input id="num">
+            <button id="clickButton" onclick="changeName()">Click Me.</button>
+        </p>
+        <p id="resPara" style="display:none;">It is an <span id="res"></span> Number</p>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
